@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>Welcome | PRABHAKAR KUMAR</title>
+	<meta name="author" content="Prabhakar Kumar" />
+	<meta name="Resource-type" content="Document" />
+
+	
+	<link rel="stylesheet" type="text/css" href="./jquery.funnyText.css" />
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<style>
+		.text1{
+			display:block;
+			text-align:center;
+			position: absolute;
+			top: 18%;
+			left: 18%;
+		}
+		.text2{
+			display:block;
+			text-align:center;
+			position: absolute;
+			top: 50%;
+			left: 36%;
+		}
+		body{
+			font-family:arial;
+			padding: 0;
+			margin: 0;
+			width: 100%;
+			height: 100%;
+		}
+		
+
+		.text2 span {
+			background-color: #DFE2DB;
+		}
+		.text2 span.active {
+			background-color: black;
+		}
+		
+		
+		/* Web design
+		* --------------------------------------- */
+		.table{
+			display:table;
+			width:100%;
+			height: 100%;
+		}
+		.tableCell{
+			display:table-cell;
+			vertical-align: middle;
+			width:100%;
+			height: 100%;
+		}
+		body, html{
+			margin:0;
+			padding:0;
+			height:100%;
+			/*background-color: #00AEEF;*/
+			
+			
+			background: url(imgs/header.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+		
+	</style>
+	
+		
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="bootstrap.min.js"></script>
+	<script type="text/javascript" src="./jquery.funnyText.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.text1').funnyText({
+				speed: 500,
+				activeColor: '#fff',
+				color: 'black',
+				fontSize: '8em'
+			});
+			
+			$('.text2').funnyText({
+				speed: 500,
+				fontSize: '5em',
+				/*color: '#191919',*/
+				/*activeColor: '#fff',*/
+				borderColor: 'black'
+			});
+		});
+	</script>
+	
+	
+
+</head>
+<body>
+		
+
+<div class="table">
+	<ul id="menu">
+			<li ><a href="Intro/index.html">Know More...</a></li>			
+		</ul>
+		
+	</div>
+	<div class="tableCell">
+		<div class="text1">Prabhakar Kumar</div><br><br>
+		<div class="text2"> Developer </div>
+	</div>
+</div>
+
+</body>
+</html>
